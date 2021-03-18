@@ -1,0 +1,26 @@
+.drumblock{
+	display: flex;
+	flex-wrap: wrap;
+	width: 380px;
+	
+	margin: auto;
+}
+.key{
+	text-align: center;
+	/*align-items: center;*/
+	width: 100px;
+	height: 80px;
+	background-color: gray;
+	/*padding: 10px;*/
+	margin: 10px;
+	font-size: 50px;
+	color: #fff;
+	font-weight: bold;
+	transition: all .7s;
+	padding-top: 20px;
+}
+.play{
+	  box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.3);
+    background: rgb(240,249,255);
+    background: radial-gradient(ellipse at center, rgba(240,249,255,1) 0%,rgba(0,180,227,1) 100%);
+}
